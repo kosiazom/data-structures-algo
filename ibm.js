@@ -54,6 +54,6 @@ function minMoves(arr) {
     }
 return n
 }
-
+}
 //Triplets 
 //GIven an array of
