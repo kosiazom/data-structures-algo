@@ -1,3 +1,11 @@
+//CHALLENGE 1: REVERSE A STRING
+// return a reversed string
+function reverseString(str){
+    let revString = str.split('').reverse().join('')
+    return revString
+
+}
+
 //Chanllenge 2: Validate a Palindrome
 //return true if palindrome and false if not
 //ex. isPalindrome('racecar') === 'true, isPalindrome('hello) ===false
@@ -125,10 +133,11 @@ function fizzBuzz(){
 
     };
     // return arr
+};
 
-}
+///////////////////////////////////////Session #2///////////////////////////////////////////S
 
 
-const output = fizzBuzz()
+const output = reverseString("interview")
 console.log(output)
 // isPalindrome("alex")
